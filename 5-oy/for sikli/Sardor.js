@@ -214,3 +214,50 @@
 // for (let i = 0.2; i <= 1; i += 0.2) {
 //   console.log(i.toFixed(1) + " kg = " + (narx * i).toFixed(2));
 // }
+// // for 6
+// Butun a va b sonlari berilgan (a<b). a dan b gacha bo‘lgan sonlar yig‘indisini hisoblang.(ularning o‘zi hisoblanmaydi)
+// let a = Number(prompt("a ni kiriting (a<b):"));
+// let b = Number(prompt("b ni kiriting (a<b):"));
+// let yigindi = 0;
+// for (let i = a + 1; i < b; i++) {
+//   yigindi += i;
+// }
+// console.log("Yig'indi:", yigindi);
+// // for 7
+// Butun a va b sonlari berilgan (a<b). a va b sonlar oralig'ida (ularning o'zi ham hisoblanadi) sonlar yig'indisini hisoblang.
+// let a = Number(prompt("a ni kiriting (a<b):"));
+// let b = Number(prompt("b ni kiriting (a<b):"));
+// let yigindi = 0;
+// for (let i = a; i <= b; i++) {
+//   yigindi += i;
+// }
+// console.log("Yig'indi:", yigindi);
+// // for 8
+// Butun a va b sonlari berilgan (a<b). a va b sonlar oralig'ida (ularning o'zi ham hisoblanadi) toq sonlar ko'paytmasini hisoblang.
+// let a = Number(prompt("a ni kiriting (a<b):"));
+// let b = Number(prompt("b ni kiriting (a<b):"));
+// let kopaytma = 1;
+// for (let i = a; i <= b; i++) {
+//   if (i % 2 !== 0) {
+//     kopaytma *= i;
+//   }
+// }
+// console.log("Ko'paytma:", kopaytma);
+// // for 9
+// Butun a va b sonlari berilgan (a<b). a va b sonlar oralig'ida (ularning o'zi ham hisoblanadi) juft sonlar kvadratlari yig'indisini hisoblang.
+// let a = Number(prompt("a ni kiriting (a<b):"));
+// let b = Number(prompt("b ni kiriting (a<b):"));
+// let yigindi = 0;
+// for (let i = a; i <= b; i++) {
+//   if (i % 2 === 0) {
+//     yigindi += i * i;
+//   }
+// }
+// console.log("Yig'indi:", yigindi);
+// // for 10
+// 1*2+3*4+5*6+...+101*102 yig'indisini hisoblang.
+// let yigindi = 0;
+// for (let i = 1; i <= 101; i += 2) {
+//   yigindi += i * (i + 1);
+// }
+// console.log("Yig'indi:", yigindi);
