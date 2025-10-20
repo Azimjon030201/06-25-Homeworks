@@ -134,10 +134,6 @@
 // } else {
 //   console.log(-1);
 // }
-// // while 40 
-// let sonKirit = Number(prompt("Biror natural son kiriting:"));
-// let vaqt = sonKirit;
-// let topildi = false;
 
 // while (vaqt > 0) {
 //   let raqam = vaqt % 10;
