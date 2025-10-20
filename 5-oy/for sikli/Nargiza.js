@@ -145,3 +145,54 @@
 // }
 
 // console.log(topildi ? "I" : "-1");
+//  // 1. Matn uzunligini hisoblash
+// function getLength(str) {
+//   return str.length;
+// }
+
+
+
+// // 2. Eng katta sonni topish
+// function findMax(arr) {
+//   return Math.max(...arr);
+// }
+
+
+
+// // 3. Matnni teskari qilish
+// function reverseString(str) {
+//   return str.split('').reverse().join('');
+// }
+
+// // 4. Eng uzun so‘zni topish
+// function longestWord(sentence) {
+//   const words = sentence.split(' ');
+//   let longest = '';
+//   for (let word of words) {
+//     if (word.length > longest.length) {
+//       longest = word;
+//     }
+//   }
+//   return longest;
+// }
+
+
+// // 5. Son holatini aniqlash
+// function checkNumber(num) {
+//   if (num > 0) return "Musbat";
+//   else if (num < 0) return "Manfiy";
+//   else return "Nol";
+// }
+
+
+
+// // 6. Yoshni hisoblash
+// function calculateAge(birthYear, currentYear) {
+//   return currentYear - birthYear;
+// }
+
+
+// // 7. So‘zlar sonini hisoblash
+// function countWords(sentence) {
+//   return sentence.trim().split(/\s+/).length;
+// }
