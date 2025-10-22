@@ -196,3 +196,45 @@
 // function countWords(sentence) {
 //   return sentence.trim().split(/\s+/).length;
 // }
+ 
+
+
+ // arr da
+//  // 1. Matn uzunligi
+// let arr1 = ["JavaScript"];
+// console.log(arr1[0].length); 
+// // 2. Eng katta son
+// let arr2 = [2, 8, 5, 10];
+// console.log(Math.max(...arr2)); 
+
+// // 3. Matnni teskari qilish
+// let arr3 = ["salom"];
+// let teskari = arr3[0].split("").reverse().join("");
+// console.log(teskari); 
+
+// // 4. Eng uzun so'z
+// let arr4 = ["Men JavaScriptni yaxshi ko‘raman"];
+// let sozlar = arr4[0].split(" ");
+// let engUzun = sozlar[0];
+// for (let i = 1; i < sozlar.length; i++) {
+//   if (sozlar[i].length > engUzun.length) {
+//     engUzun = sozlar[i];
+//   }
+// }
+// console.log(engUzun); 
+
+// // 5. Son musbat, manfiy yoki nol
+// let arr5 = [-5];
+// let son = arr5[0];
+// if (son > 0) console.log("Musbat");
+// else if (son < 0) console.log("Manfiy");
+// else console.log("Nol");
+
+// // 6. Yoshni hisoblash
+// let arr6 = [2005, 2025];
+// console.log(arr6[1] - arr6[0]); 
+
+// // 7. So'zlar soni
+// let arr7 = ["Men bugun darsga bordim"];
+// let count = arr7[0].split(" ").length;
+// console.log(count); 
