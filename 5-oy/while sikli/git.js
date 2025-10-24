@@ -194,15 +194,12 @@ gameScore.addScore(20);
 gameScore.resetScore();
 
 let c = {
-  name: "Behzod",
-  surname: "To'xtaqulov",
+  name: "Sardor",
+  surname: "Erkinov",
   age: 15
 }
-const b = "behzod"
+const b = "Sardor"
 let a = prompt("Son kiriting")
 
-if () {
+
   
-} else {
-  
-}
