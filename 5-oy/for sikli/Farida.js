@@ -90,3 +90,40 @@
 // }
 // console.log( countWords("Men bugun darsga bordim"));
 
+// class User{
+//     constructor(name,age,email){
+//      this.name = name;
+//      this.age = age;
+//      this.email = email;
+//      this.isOnline = false;
+//      this.type = "User";
+//     }
+//     login (){
+//         this.isOnline = true;
+//         console.log(this.name,"Web saytga kirdi");
+//     }
+//     logout(){
+//         this.isOnline = false;
+//         console.log(this.name,"Web saytdan chiqdi"); 
+//     }
+//     getInfo(){
+//         return `${this.name}ning yoshi ${this.age} va emaili ${this.email}`
+//     }
+// }
+// let userOne = new User("Azimjon",24,"azimjon@gmail.com")
+
+
+// console.log(userOne);
+// userOne.login()
+// console.log(userOne);
+// userOne.logout()
+// console.log(userOne);
+// console.log(userOne.getInfo());
+
+// let userTwo = new User("Farida",30, "farida@gmail.com");
+
+// console.log(userTwo.getInfo());
+
+
+
+
