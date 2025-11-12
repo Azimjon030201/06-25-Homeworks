@@ -87,3 +87,56 @@
 // console.log(u2.username); // marysue1989 
 // console.log(u3.username); // milan_rodrick
 
+
+ // 3 function listOrders(orders) {
+//     return orders.filter(order => order.status === 'accepted') || [];
+// }
+
+// // Buyurtmalar ro‘yxati (massiv)
+// let orders = [
+//     { name: "Kofe", status: "accepted" },
+//     { name: "Choy", status: "pending" },
+//     { name: "Sendvich", status: "accepted" },
+//     { name: "Pizza", status: "rejected" }
+// ];
+
+// // Funksiyani chaqiramiz va natijani ko‘ramiz
+// console.log(listOrders(orders));
+
+// 6  function drinksOnly(menu = []) {
+//     return menu
+//         .filter(item => {
+//             const key = String(item.category || item.type || '').toLowerCase();
+//             return key.includes('drink');
+//         })
+//         .map(item => item.name);
+// }
+
+// // Example usage
+// const menu = [
+//     { name: 'Kofe', category: 'drinks' },
+//     { name: 'Choy', category: 'drinks' },
+//     { name: 'Sendvich', category: 'food' },
+//     { name: 'Pepsi', type: 'drink' }
+// ];
+
+// console.log(drinksOnly(menu)); // ['Kofe', 'Choy', 'Pepsi']
+
+// 7 function foodOnly(menu = []) {
+//     return menu
+//         .filter(item => {
+//             const key = String(item.category || item.type || '').toLowerCase();
+//             return key.includes('food');
+//         })
+//         .map(item => item.name);
+// }
+
+// // Example usage:
+// const sampleMenu = [
+//     { name: 'Kofe', category: 'drinks' },
+//     { name: 'Sendvich', category: 'food' },
+//     { name: 'Pizza', category: 'fast-food' },
+//     { name: 'Pepsi', type: 'drink' }
+// ];
+
+// console.log(foodOnly(sampleMenu)); // ['Sendvich', 'Pizza']
