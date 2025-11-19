@@ -134,10 +134,6 @@
 // } else {
 //   console.log(-1);
 // }
-// // while 40 
-// let sonKirit = Number(prompt("Biror natural son kiriting:"));
-// let vaqt = sonKirit;
-// let topildi = false;
 
 // while (vaqt > 0) {
 //   let raqam = vaqt % 10;
@@ -149,3 +145,96 @@
 // }
 
 // console.log(topildi ? "I" : "-1");
+//  // 1. Matn uzunligini hisoblash
+// function getLength(str) {
+//   return str.length;
+// }
+
+
+
+// // 2. Eng katta sonni topish
+// function findMax(arr) {
+//   return Math.max(...arr);
+// }
+
+
+
+// // 3. Matnni teskari qilish
+// function reverseString(str) {
+//   return str.split('').reverse().join('');
+// }
+
+// // 4. Eng uzun so‘zni topish
+// function longestWord(sentence) {
+//   const words = sentence.split(' ');
+//   let longest = '';
+//   for (let word of words) {
+//     if (word.length > longest.length) {
+//       longest = word;
+//     }
+//   }
+//   return longest;
+// }
+
+
+// // 5. Son holatini aniqlash
+// function checkNumber(num) {
+//   if (num > 0) return "Musbat";
+//   else if (num < 0) return "Manfiy";
+//   else return "Nol";
+// }
+
+
+
+// // 6. Yoshni hisoblash
+// function calculateAge(birthYear, currentYear) {
+//   return currentYear - birthYear;
+// }
+
+
+// // 7. So‘zlar sonini hisoblash
+// function countWords(sentence) {
+//   return sentence.trim().split(/\s+/).length;
+// }
+ 
+
+
+ // arr da
+//  // 1. Matn uzunligi
+// let arr1 = ["JavaScript"];
+// console.log(arr1[0].length); 
+// // 2. Eng katta son
+// let arr2 = [2, 8, 5, 10];
+// console.log(Math.max(...arr2)); 
+
+// // 3. Matnni teskari qilish
+// let arr3 = ["salom"];
+// let teskari = arr3[0].split("").reverse().join("");
+// console.log(teskari); 
+
+// // 4. Eng uzun so'z
+// let arr4 = ["Men JavaScriptni yaxshi ko‘raman"];
+// let sozlar = arr4[0].split(" ");
+// let engUzun = sozlar[0];
+// for (let i = 1; i < sozlar.length; i++) {
+//   if (sozlar[i].length > engUzun.length) {
+//     engUzun = sozlar[i];
+//   }
+// }
+// console.log(engUzun); 
+
+// // 5. Son musbat, manfiy yoki nol
+// let arr5 = [-5];
+// let son = arr5[0];
+// if (son > 0) console.log("Musbat");
+// else if (son < 0) console.log("Manfiy");
+// else console.log("Nol");
+
+// // 6. Yoshni hisoblash
+// let arr6 = [2005, 2025];
+// console.log(arr6[1] - arr6[0]); 
+
+// // 7. So'zlar soni
+// let arr7 = ["Men bugun darsga bordim"];
+// let count = arr7[0].split(" ").length;
+// console.log(count); 
