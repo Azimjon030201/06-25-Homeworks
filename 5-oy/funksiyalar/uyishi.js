@@ -10,7 +10,6 @@ function createCounter() {
 
 let liftCounter = createCounter();
 
-
 liftCounter(); 
 liftCounter(); 
 liftCounter(); 
